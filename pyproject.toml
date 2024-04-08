@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "steampipe-4233-repro"
+version = "0.1.0"
+description = ""
+authors = ["Patrick Decat <pdecat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+backoff = "^2.2"
+coloredlogs = "^15.0"
+joblib = "^1.4"
+psycopg = { extras = ["binary"], version = "^3.1" }

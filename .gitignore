@@ -1,0 +1,5 @@
+.steampipe/db/
+.steampipe/internal/
+.steampipe/logs/
+.steampipe/plugins/
+.venv/
